@@ -1,1 +1,1 @@
-![Logo de la paloma](dove.png)
+(dove.png)
