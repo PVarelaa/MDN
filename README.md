@@ -1,1 +1,1 @@
-      <img src="dove.png" alt="a simple dove logo">
+![Logo de la paloma](dove.png)
