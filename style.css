@@ -136,11 +136,15 @@ aside img {
 footer {
   margin-top: 10px;
 }
-img:only-child {
-  transition: transform 0.5s ease-in-out;
+
+img:not(:first-of-type){
+  width: 300px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.8s ease-in-out;
 }
 
-/* Estilo específico al pasar el mouse sobre imágenes, excepto la primera */
-img:only-child:hover {
-  transform: rotate(360deg) translateX(10px) translateY(10px);
+img:not(:first-of-type):hover {
+  transform: scale(1.1) rotate(5deg);
 }
