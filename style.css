@@ -141,9 +141,6 @@ img:only-child {
 }
 
 /* Estilo específico al pasar el mouse sobre imágenes, excepto la primera */
-img:only-child:hover {
-  transform: rotate(360deg) translateX(10px) translateY(10px);
-}
 
 img:not(:first-of-type){
   width: 300px;
